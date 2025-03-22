@@ -1,6 +1,6 @@
 [build]
   publish = "src"
-  command = ""
+  command = "npm run build"
 
 [[redirects]]
   from = "/"
@@ -8,11 +8,11 @@
   status = 200
 
 [[redirects]]
-  from = "/app"
-  to = "/pages/Index.tsx"
+  from = "/app/*"
+  to = "/index.html"
   status = 200
 
 [[redirects]]
-  from = "/app/*"
-  to = "/pages/Index.tsx"
+  from = "/app"
+  to = "/index.html"
   status = 200
