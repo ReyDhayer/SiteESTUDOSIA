@@ -21,14 +21,13 @@ const Header = () => {
         <nav className="flex items-center space-x-8">
           <ul className="flex space-x-8">
             <li>
-              <a 
-                href="#" 
-                className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-all duration-300 relative group"
-              >
-                
-                <span className="relative z-10">Início</span>
-                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-100 to-violet-100 rounded-lg opacity-0 transform scale-90 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100"></div>
-              </a>
+            <a 
+  href="/src/components/ui/inicio.html" 
+  className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-all duration-300 relative group"
+>
+  <span className="relative z-10">Início</span>
+  <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-100 to-violet-100 rounded-lg opacity-0 transform scale-90 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100"></div>
+</a>
             </li>
             <li>
               <a 
