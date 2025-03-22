@@ -1,8 +1,18 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  publish = "src"
+  command = ""
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/"
+  to = "/components/ui/inicio.html"
+  status = 200
+
+[[redirects]]
+  from = "/app"
+  to = "/pages/Index.tsx"
+  status = 200
+
+[[redirects]]
+  from = "/app/*"
+  to = "/pages/Index.tsx"
   status = 200
