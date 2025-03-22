@@ -10,7 +10,7 @@ import HistorySection from "@/components/HistorySection";
 import { toast } from "sonner";
 import { Book, BookOpen, Code, FileText, FileSearch, Globe, HelpCircle, Library, Pencil, Quote, Search, CheckSquare, Youtube } from "lucide-react";
 
-const Index = () => {
+const Ferramentas = () => {
   const [selectedTool, setSelectedTool] = useState<string | null>(null);
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [response, setResponse] = useState<AIResponse>({
@@ -317,4 +317,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Ferramentas;
