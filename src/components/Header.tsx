@@ -22,7 +22,7 @@ const Header = () => {
           <ul className="flex space-x-8">
             <li>
             <a 
-  href="/src/components/ui/inicio.html" 
+  href="src\pages\inicio.html" 
   className="px-4 py-2 text-gray-600 hover:text-gray-900 font-medium transition-all duration-300 relative group"
 >
   <span className="relative z-10">Início</span>
