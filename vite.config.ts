@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: './',  // Changed from '/' to './'
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -12,6 +12,11 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true
+    sourcemap: false,  // Changed to false for production
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 })
